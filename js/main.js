@@ -1,9 +1,10 @@
 //指定DOM
 var list = document.querySelector('.list');
 var send = document.querySelector('#btn');
-var data = JSON.parse(localStorage.getItem('listData')) || [];
 var resetbtn = document.querySelector('#resetbtn');
-console.log(resetbtn);
+var data = JSON.parse(localStorage.getItem('listData')) || [];
+
+
 
 
 
